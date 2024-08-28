@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 main {
@@ -39,7 +39,7 @@ footer {
 
 /* Navigation Bar Styling */
 .navbar {
-  background-color: chartreuse;
+  background-color: rgb(225, 79, 21);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -94,6 +94,7 @@ footer {
       "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-size: 35px;
+    color: #333;
   }
 
   h2 {
@@ -111,6 +112,7 @@ footer {
     margin: 1em;
     /* background-color: chartreuse; */
     border-radius: 5px;
+    background-color: rgb(225, 79, 21);
   }
 
   .categorylist a {
@@ -175,7 +177,7 @@ footer {
   }
 
   .discount-badge {
-    background-color: chartreuse;
+    background-color: rgb(225, 79, 21);
     color: black;
     padding: 7px 7px;
     font-size: 1.2em;
@@ -196,7 +198,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: chartreuse;
+    color: rgb(225, 79, 21);
     font-size: 1.7em;
     display: flex;
     justify-content: center;
@@ -246,7 +248,7 @@ footer {
     /* max-width: 50%; */
     text-align: center;
     align-items: center;
-    background-color: chartreuse;
+    background-color: rgb(225, 79, 21);
     border-radius: 5px;
     justify-content: center;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -260,7 +262,7 @@ footer {
 
   .product-details p {
     margin: 10px 0;
-    color: #333;
+    color: #ffffff;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -284,7 +286,7 @@ footer {
 
   .product-action p {
     margin: 5px 0;
-    color: #666;
+    color: #ffffff;
   }
 
   .product-action select {
@@ -297,8 +299,8 @@ footer {
   .product-action button {
     margin-top: 20px;
     padding: 10px;
-    background-color: chartreuse;
-    color: black;
+    background-color: rgb(225, 79, 21);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 1em;
@@ -307,7 +309,7 @@ footer {
   }
 
   .product-action button:hover {
-    background-color: rgb(95, 190, 0);
+    background-color: rgb(246, 119, 69);
   }
 
   .breadcrumbs {
@@ -317,6 +319,10 @@ footer {
 
 /* WEBSITE */
 @media (min-width: 1100px) {
+  main {
+    margin: 7em;
+  }
+
   h1 {
     font-weight: bold;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -328,12 +334,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 18px; /* Afstand mellem boksene */
-    padding: 3px; /* Ekstra plads rundt om hele gitteret */
+    padding: 10px; /* Ekstra plads rundt om hele gitteret */
     margin: 3em;
+    background-color: rgb(225, 79, 21);
   }
 
   .categorylist a {
-    background-color: #7a7a7a; /* Baggrundsfarve på boksene */
+    background-color: #ffffff; /* Baggrundsfarve på boksene */
     color: black;
     display: flex;
     justify-content: center; /* Centrerer teksten horisontalt */
@@ -388,14 +395,16 @@ footer {
   }
 
   .discount-badge {
-    background-color: red;
+    background-color: rgb(225, 79, 21);
     color: black;
     padding: 2px 5px;
-    font-size: 0.8em;
+    font-size: 1.2em;
     position: absolute;
     top: 10px;
     right: 10px;
     border-radius: 3px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
   }
 
   .product-card.sold-out img {
@@ -409,7 +418,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: black;
+    color: rgb(225, 79, 21);
     font-size: 1.5em;
     display: flex;
     justify-content: center;
@@ -460,11 +469,12 @@ footer {
   .product-details h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
+    color: #ffffff;
   }
 
   .product-details p {
     margin: 10px 0;
-    color: #333;
+    color: #ffffff;
   }
 
   .product-action {
@@ -484,7 +494,7 @@ footer {
 
   .product-action p {
     margin: 5px 0;
-    color: #666;
+    color: #ffffff;
   }
 
   .product-action select {
@@ -497,8 +507,8 @@ footer {
   .product-action button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #007bff;
-    color: black;
+    background-color: rgb(225, 79, 21);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 1em;
@@ -507,7 +517,7 @@ footer {
   }
 
   .product-action button:hover {
-    background-color: #0056b3;
+    background-color: rgb(250, 117, 64);
   }
 
   .breadcrumbs {
@@ -533,7 +543,7 @@ footer {
 
   .breadcrumbs li a {
     text-decoration: none;
-    color: #007bff;
+    color: rgb(225, 79, 21);
     transition: color 0.3s;
   }
 
