@@ -43,7 +43,7 @@ html {
   flex-grow: 3;
 }
 .subtle {
-  color: var(--text-decoration-color);
+  color: white;
 }
 .productlist article .discounted,
 .productlist article .price span {
@@ -56,6 +56,15 @@ html {
 .product main .breadcrumbs,
 .product main img {
   grid-column: 1/-1;
+}
+
+.productlist article.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background: rgb(255, 55, 0);
+  border: 4px solid rgb(255, 255, 255);
+  color: white;
+  padding: 1rem;
 }
 
 .purchaseBox {
