@@ -12,16 +12,18 @@ html {
 }
 .categorylist a {
   text-decoration: none;
-  padding: 2em;
   color: rgb(255, 255, 255);
   border: 4px solid rgb(255, 255, 255);
   border-radius: 0%;
+  position: relative;
+  padding: 2em;
 }
 
 .categorylist a:hover {
   border-color: rgb(255, 55, 0);
   font-style: italic;
 }
+
 .productlist main h2 {
   grid-column: 1/-1;
 }
@@ -255,15 +257,36 @@ dt {
     margin: 0 10px;
     transition: all 0.3s;
   }
+
+  .categorylist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  .intro {
+    color: white;
+    padding-top: 20px;
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 910px) {
   .breadcrumbs {
     display: none;
   }
-}
+  .intro {
+    color: white;
+    padding-top: 20px;
+    font-size: 17px;
+  }
 
-.intro {
-  color: white;
-  padding-top: 15px;
+  .categorylist {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .h1_home {
+    font-size: 120px;
+  }
 }
