@@ -252,11 +252,12 @@ dt {
     display: flex;
     font-size: 0.8rem;
     list-style-type: none;
+    color: #ffffff;
   }
   .breadcrumbs li::after {
     content: " > ";
     color: rgb(255, 55, 0);
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -273,6 +274,26 @@ dt {
     color: white;
     padding-top: 20px;
     font-size: 17px;
+  }
+  .purchaseBox {
+    max-width: 450px;
+  }
+
+  .info {
+    max-width: 500px;
+  }
+
+  .productpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+  }
+  .info h2 {
+    font-size: 35px;
+  }
+
+  .purchaseBox h3 {
+    font-size: 29px;
   }
 }
 
@@ -300,5 +321,13 @@ dt {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .info h2 {
+    font-size: 30px;
+  }
+
+  .purchaseBox h3 {
+    font-size: 30px;
   }
 }
