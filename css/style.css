@@ -44,6 +44,12 @@ html {
   font-size: 1rem;
   flex-grow: 3;
 }
+.price {
+  color: white;
+  font-style: oblique;
+  content: ",-";
+}
+
 .subtle {
   color: white;
 }
@@ -288,5 +294,11 @@ dt {
 
   .h1_home {
     font-size: 120px;
+  }
+
+  .productlist main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
